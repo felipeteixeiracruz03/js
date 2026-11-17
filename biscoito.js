@@ -1,0 +1,10 @@
+const titulo = document.getElementById("titulo");
+
+const botao = document.getElementById("botao");
+
+botao.addEventListener("click",function(){
+
+    titulo.innerText="Estou aprendendo DOM!";
+
+
+});
